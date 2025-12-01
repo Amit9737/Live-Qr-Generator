@@ -1,6 +1,6 @@
 {
   "name": "qr-generator",
-  "homepage":"https://amit9737.github.io/Live-Qr-Generator/",
+  "homepage": "https://amit9737.github.io/Live-Qr-Generator/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,11 +9,12 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
+    "framer-motion": "^12.23.25",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "sweetalert2": "^11.26.3",
